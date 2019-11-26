@@ -1,6 +1,6 @@
 # How to python
 
-Note: these instructions are for a mac/linux environment. On Windows, managing python from the command line is difficult, so I recommend using Anaconda, which comes pre-installed with most scientific packages and comes with a GUI to manage packages. Anaconda uses its own environment and package management system, so if you use Anaconda, do not follow any instructions here. 
+Note: these instructions are for a mac/linux environment. On Windows, managing python from the command line is difficult, so I recommend using Anaconda, which comes pre-installed with most scientific packages. Anaconda uses its own environment and package management system, so if you use Anaconda, do not follow any instructions here. 
 
 ## Key concepts
 1. **Use a separate virtual environment for each project.** This promotes reproducibility since your projects will be using consistent versions of packages. 
