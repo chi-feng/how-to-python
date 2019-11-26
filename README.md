@@ -1,5 +1,7 @@
 # How to python
 
+Note: these instructions are for a mac/linux environment. On Windows, managing python from the command line is difficult, so I recommend using Anaconda, which comes pre-installed with most scientific packages and comes with a GUI to manage packages. Anaconda uses its own environment and package management system, so if you use Anaconda, do not follow any instructions here. 
+
 ## Key concepts
 1. **Use a separate virtual environment for each project.** This promotes reproducibility since your projects will be using consistent versions of packages. 
 1. **Keep virtual environments in a single location in your home directory** (e.g. `~/venvs/`). This makes it easy to find them later on, and doesn't encumber your project directory with thousands of files and large python packages which will be annoying when you want to move/copy your project. 
@@ -46,6 +48,12 @@ If you want to switch between environments, you must first deactivate your curre
     ```
     (project-name) [user@local project]$ pip install -r requirements.txt
     ```
+
+## Exporting pacckages to a requirements.txt file
+If you want to share your current environment with collaborators, you can create a requirements.txt file 
+```
+(project-name) [user@local project]$ pip freeze > requirements.txt
+```
 
 ## Useful python packages
 Data science
