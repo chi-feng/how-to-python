@@ -14,7 +14,7 @@
     ```
     [user@local venvs]$ python3 -m venv project-name
     ```
-  This creates a python virtual environment in `~/venvs/project-name`
+    This creates a python virtual environment in `~/venvs/project-name`
 
 ## Activating a virtual environment
 1. Before you can run code or install packages, you will need to activate the virtual environment
@@ -27,11 +27,11 @@
     ```
     
 ## Deactivating a virtual environment
-1. If you want to switch between environments, you must first deactivate your current active environment
-    ```
-    (project-name) [user@local ~]$ deactivate
-    [user@local ~]$
-    ```
+If you want to switch between environments, you must first deactivate your current active environment
+```
+(project-name) [user@local ~]$ deactivate
+[user@local ~]$
+```
 
 ## Installing and updating packages
 1. Upgrading `pip` and `wheel`. Sometimes your system python installs outdated versions of package management tools. Run the following command to update these tools
